@@ -1,0 +1,27 @@
+{
+  "name": "rtd-counter",
+  "version": "0.1.0",
+  "description": "A simple React sample for showing use of redux typed ducks.",
+  "main": "app.tsx",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack -w"
+  },
+  "keywords": [],
+  "author": "Marcel Hoyer <mhoyer@pixelplastic.de>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "redux": "^3.6.0",
+    "redux-typed-ducks": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^0.14.47",
+    "@types/react-dom": "^0.14.18",
+    "@types/redux": "^3.6.31",
+    "ts-loader": "^1.2.0",
+    "typescript": "^2.0.9",
+    "webpack": "^1.13.3"
+  }
+}
