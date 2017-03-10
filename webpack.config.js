@@ -7,11 +7,11 @@ module.exports = {
     },
 
     resolve: {
-        extensions: ["", ".ts", ".tsx", ".js"]
+        extensions: [".ts", ".tsx", ".js"]
     },
 
     module: {
-        loaders: [ { test: /\.tsx?$/, loader: "ts" } ],
+        rules: [ { test: /\.tsx?$/, loader: "ts-loader" } ],
     },
 
     externals: {
